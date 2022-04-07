@@ -266,11 +266,13 @@ a:hover{
 }
 
 .days {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	text-align: center;
+
 
     margin: 2rem;
 
