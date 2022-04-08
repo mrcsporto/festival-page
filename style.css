@@ -331,6 +331,36 @@ h2 .map{
 	width: 100%;
 }
 
+footer {
+    background-color: rgba(33, 33, 33, 0.95);
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 5rem;
+
+    padding-top: 2rem;
+    list-style-type: none;    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer p.copyright {
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    color: #ffffffdd;
+    font-size: 0.5rem;
+}
+
+
+
 @media screen and (max-width:820px) {
 
     header .content {
