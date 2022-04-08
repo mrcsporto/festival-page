@@ -85,3 +85,16 @@ function initMap() {
     ],
   });
 }
+
+window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 90) {
+        document.getElementById("header").style.height = "3rem";
+        document.getElementById("header").style.fontSize = "0.9rem";
+    
+    } else {
+        document.getElementById("header").style.height = "5rem";
+        document.getElementById("header").style.fontSize = "1rem";
+   
+    }
+}
