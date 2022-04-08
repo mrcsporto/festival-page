@@ -375,10 +375,6 @@ footer p.copyright {
         font-size: 1.5rem;
     }
 
-    .dropdown-content {
-        display: flex; 
-    }
-
     a.ingresso, 
     a.programacao, 
     a.show {
