@@ -16,7 +16,7 @@ a {
     color: white;
 }
 
-h2 {
+section.schedule {
     padding-top: 2rem;
 }
 
@@ -142,8 +142,9 @@ header .icons {
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: center;
-    
 
+    margin: 2rem;
+    
     height: fit-content;
     
 }
@@ -279,7 +280,7 @@ a:hover{
    
 }
 
-.day-1 {
+.day-1, .day-2, .day-3, .day-4  {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -297,7 +298,7 @@ a:hover{
     box-shadow: 2px 2px 10px rgba(34, 34, 34, 0.3);
 }
 
-.day-2 {
+/* .day-2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -346,7 +347,7 @@ a:hover{
     background: rgba(255, 254, 254, 0.1);
     backdrop-filter: blur(10px);
     box-shadow: 2px 2px 10px rgba(34, 34, 34, 0.3);
-}
+} */
 
 ul {
     text-decoration: none;
