@@ -117,9 +117,9 @@ section.schedule {
     
 }
 
-/* span.rock {
+span.rock {
     margin-bottom: -1.25rem;
-} */
+}
 
 span {
     display: flex;
@@ -139,7 +139,6 @@ span {
     box-shadow: 5px 5px 5px #333;
     text-shadow: 1px 1px 2px #333;
 
-   
     overflow-wrap: break-word;
     font-weight: 600;
 
@@ -161,8 +160,7 @@ span {
     background-color: black;
  
     height: fit-content;
-
-    
+ 
     color: white;
 }
 
@@ -283,7 +281,6 @@ a:hover{
     margin: 2rem;
 
     height: fit-content;
-   
 }
 
 .day-1, 
@@ -307,7 +304,6 @@ a:hover{
     -webkit-backdrop-filter: blur(10px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.20);
     border: 1px solid rgba(209, 213, 219, 0.3);
-
 }
 
 
