@@ -161,7 +161,7 @@ h1 {
     color: white;
 }
 
-.button {
+.cards a {
     border: 2px solid crimson;
     border-radius: 0.25rem;
     text-align: center;
