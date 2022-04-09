@@ -113,8 +113,8 @@ h1.festival-logo {
     font-weight: 800;
     background: -webkit-repeating-linear-gradient(rgb(250, 0, 150), rgb(255, 149, 0));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    background-clip: text;
+    color: transparent;
 }
 
 span.rock {
