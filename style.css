@@ -186,7 +186,7 @@ span.rock {
 .card-3 {
     display: flex;  
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
     width: 18rem;
@@ -245,7 +245,7 @@ span.rock {
 }
 
 .small-text {
-    font-size: 10%;
+    font-size: 0.25rem;
     overflow-wrap: break-word;
     margin: 2rem;
 }
@@ -406,5 +406,11 @@ footer p.copyright {
 
     header .icons {
         width: 20%;
+    }
+
+    .small-text {
+        font-size: 0.1rem;
+        overflow-wrap: break-word;
+        margin: 2rem;
     }
 }
