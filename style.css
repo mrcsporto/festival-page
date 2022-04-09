@@ -111,14 +111,15 @@ section.schedule {
     text-shadow: 1px 1px 2px #333;
 }
 
-h2.festival,
-h2.rock {
+.festival,
+.rock {
     display: flex;
     flex-direction: column;
     
     font-size: 2.5em;
+    font-weight: 800;
     letter-spacing: 0.1rem;
-    /* word-spacing: 1rem; */
+    word-spacing: 1rem;
        
     background: -webkit-repeating-linear-gradient(rgb(250, 0, 150), rgb(255, 149, 0));
     -webkit-background-clip: text;
