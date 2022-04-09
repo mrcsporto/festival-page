@@ -83,6 +83,17 @@ header.icons,header.content:hover{
     height: 30rem;
 }
 
+.banner-text {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
 section.schedule {
     padding-top: 2rem;
 }
@@ -95,10 +106,7 @@ section.schedule {
     height:fit-content;
 
     overflow-wrap: break-word;
-
-    margin-left: 15%;
-    padding-top: 6rem;
-
+    
     color: white;
 }
 
