@@ -342,7 +342,7 @@ footer p.copyright {
     font-size: 0.5rem;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:920px) {
 
     header .content {
         visibility: hidden;
