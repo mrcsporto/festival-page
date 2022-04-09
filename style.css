@@ -111,11 +111,14 @@ section.schedule {
     text-shadow: 1px 1px 2px #333;
 }
 
-h1.festival-logo {
+h1.festival,
+h1.rock {
     display: flex;
     flex-direction: column;
     
     font-size: 2.25rem;
+    letter-spacing: 0.1rem;
+    /* word-spacing: 1rem; */
        
     background: -webkit-repeating-linear-gradient(rgb(250, 0, 150), rgb(255, 149, 0));
     -webkit-background-clip: text;
@@ -123,7 +126,7 @@ h1.festival-logo {
     color: transparent;   
 }
 
-span.rock {
+.rock {
     margin-bottom: -1.25rem;
 }
 
@@ -245,7 +248,7 @@ span.rock {
 }
 
 .small-text {
-    font-size: 0.25rem;
+    font-size: 0.25em;
     overflow-wrap: break-word;
     margin: 2rem;
 }
@@ -408,9 +411,4 @@ footer p.copyright {
         width: 20%;
     }
 
-    .small-text {
-        font-size: 0.1rem;
-        overflow-wrap: break-word;
-        margin: 2rem;
-    }
 }
