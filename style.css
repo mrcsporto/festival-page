@@ -149,6 +149,7 @@ h1 {
    background: repeating-linear-gradient(rgb(250, 0, 150), rgb(255, 149, 0));
     -webkit-background-clip: text;
     background-clip: text;
+    -webkit-box-decoration-break: clone;
     color: transparent;   
 }
 
