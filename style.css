@@ -117,7 +117,6 @@ section.schedule {
     flex-direction: column;
     
     font-size: 2.5em;
-    font-weight: 800;
     letter-spacing: 0.1rem;
     word-spacing: 1rem;
        
@@ -127,8 +126,8 @@ section.schedule {
     color: transparent;   
 }
 
-.rock {
-    margin-bottom: -1.25rem;
+h2.festival {
+    margin-top: -16px;
 }
 
 /* span {
