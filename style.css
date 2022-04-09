@@ -83,7 +83,7 @@ header.icons,header.content:hover{
     height: 30rem;
 }
 
-banner-text {
+.banner-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
