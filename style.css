@@ -86,11 +86,15 @@ header.icons,header.content:hover{
 .banner-text {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    
     width: 15rem;
     height: 100%;
-    flex-wrap: wrap;
+   
     color: white;
+    
+    margin-left: 10%;
 }
 
 section.schedule {
