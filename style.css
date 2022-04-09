@@ -8,9 +8,12 @@ body {
     font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     background-color: black;
-    scroll-behavior: smooth;
+    
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 a {
     text-decoration: none;
@@ -117,7 +120,7 @@ h1.festival-logo {
     color: transparent;
 }
 
-span.rock {
+/* span.rock {
     margin-bottom: -1.25rem;
 }
 
@@ -128,7 +131,7 @@ span {
     overflow-wrap: break-word;
     width:fit-content;
     height:fit-content;
-}
+} */
 
 .content-1 a {
     border: 2px solid crimson;
@@ -154,8 +157,6 @@ span {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-
-    margin: 3rem;
    
     background-color: black;
  
@@ -186,7 +187,7 @@ span {
     flex-wrap: wrap;
     text-align: center;
     width: 18rem;
-    height: 28rem;
+    height: 30rem;
     margin: 1rem;
     border-radius: 0.5rem;
     border: 1px solid rgba(209, 213, 219, 0.3);
@@ -241,9 +242,9 @@ span {
 }
 
 .small-text {
-    font-size: 0.25rem;
+    font-size: 10%;
     overflow-wrap: break-word;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 a:hover{
