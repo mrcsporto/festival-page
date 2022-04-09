@@ -83,15 +83,14 @@ header.icons,header.content:hover{
     height: 30rem;
 }
 
-.banner-text {
+banner-text {
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    flex-direction: column;
     justify-content: center;
-    align-items: stretch;
-    width: 50%;
+    width: 15rem;
     height: 100%;
     flex-wrap: wrap;
+    color: white;
 }
 
 section.schedule {
@@ -162,7 +161,7 @@ h1 {
     color: white;
 }
 
-.cards a {
+.button {
     border: 2px solid crimson;
     border-radius: 0.25rem;
     text-align: center;
