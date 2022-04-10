@@ -150,9 +150,9 @@ h1 {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-box-decoration-break: clone;
-   box-decoration-break: clone;
+    box-decoration-break: clone;
     color: transparent;   
-}
+    }
 
 .ticket {
     display: flex;
